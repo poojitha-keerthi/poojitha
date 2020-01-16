@@ -1,0 +1,218 @@
+{
+	"variables": [],
+	"info": {
+		"name": "rest api",
+		"_postman_id": "14b9f001-6527-0c7d-ec34-c8246cd5e0d4",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "\thttp://dummy.restapiexample.com/api/v1/employees",
+			"request": {
+				"url": "\thttp://dummy.restapiexample.com/api/v1/employees",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "cfdfdf11-eb79-4083-92a0-fefbdf956820",
+					"name": "\thttp://dummy.restapiexample.com/api/v1/employees",
+					"originalRequest": {
+						"url": "\thttp://dummy.restapiexample.com/api/v1/employees",
+						"method": "GET",
+						"header": [],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "accept-ranges",
+							"key": "accept-ranges",
+							"value": "bytes",
+							"description": "Content-Types that are acceptable"
+						},
+						{
+							"name": "access-control-allow-origin",
+							"key": "access-control-allow-origin",
+							"value": "*",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "access-control-expose-headers",
+							"key": "access-control-expose-headers",
+							"value": "Content-Type, X-Requested-With, X-authentication, X-client",
+							"description": "Lets a server whitelist headers that browsers are allowed to access."
+						},
+						{
+							"name": "age",
+							"key": "age",
+							"value": "0",
+							"description": "The age the object has been in a proxy cache in seconds"
+						},
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-store, no-cache, must-revalidate",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "content-encoding",
+							"key": "content-encoding",
+							"value": "gzip",
+							"description": "The type of encoding used on the data."
+						},
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "642",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json;charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Thu, 16 Jan 2020 08:54:01 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "expires",
+							"key": "expires",
+							"value": "Thu, 19 Nov 1981 08:52:00 GMT",
+							"description": "Gives the date/time after which the response is considered stale"
+						},
+						{
+							"name": "pragma",
+							"key": "pragma",
+							"value": "no-cache",
+							"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+						},
+						{
+							"name": "referrer-policy",
+							"key": "referrer-policy",
+							"value": "",
+							"description": "Custom header"
+						},
+						{
+							"name": "response",
+							"key": "response",
+							"value": "200",
+							"description": "Custom header"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "nginx/1.16.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "vary",
+							"key": "vary",
+							"value": "Accept-Encoding,User-Agent,X-APP-JSON",
+							"description": "Tells downstream proxies how to match future request headers to decide whether the cached response can be used rather than requesting a fresh one from the origin server."
+						},
+						{
+							"name": "via",
+							"key": "via",
+							"value": "1.1 varnish (Varnish/6.0)",
+							"description": "Informs the client of proxies through which the response was sent."
+						},
+						{
+							"name": "x-ezoic-cdn",
+							"key": "x-ezoic-cdn",
+							"value": "Miss",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-middleton-response",
+							"key": "x-middleton-response",
+							"value": "200",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-shard",
+							"key": "x-shard",
+							"value": "100225165",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-sol",
+							"key": "x-sol",
+							"value": "pub_site",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-varnish",
+							"key": "x-varnish",
+							"value": "919183719",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-vcache",
+							"key": "x-vcache",
+							"value": "Miss",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [],
+					"responseTime": 918,
+					"body": "{\"status\":\"success\",\"data\":{\"0\":{\"id\":\"1\",\"employee_name\":\"Tiger Nixon\",\"employee_salary\":\"320800\",\"employee_age\":\"61\",\"profile_image\":\"\"},\"2\":{\"id\":\"3\",\"employee_name\":\"Ashton Cox\",\"employee_salary\":\"86000\",\"employee_age\":\"66\",\"profile_image\":\"\"},\"3\":{\"id\":\"4\",\"employee_name\":\"Cedric Kelly\",\"employee_salary\":\"433060\",\"employee_age\":\"22\",\"profile_image\":\"\"},\"4\":{\"id\":\"5\",\"employee_name\":\"Airi Satou\",\"employee_salary\":\"162700\",\"employee_age\":\"33\",\"profile_image\":\"\"},\"5\":{\"id\":\"6\",\"employee_name\":\"Brielle Williamson\",\"employee_salary\":\"372000\",\"employee_age\":\"61\",\"profile_image\":\"\"},\"6\":{\"id\":\"7\",\"employee_name\":\"Herrod Chandler\",\"employee_salary\":\"137500\",\"employee_age\":\"59\",\"profile_image\":\"\"},\"7\":{\"id\":\"8\",\"employee_name\":\"Rhona Davidson\",\"employee_salary\":\"327900\",\"employee_age\":\"55\",\"profile_image\":\"\"},\"8\":{\"id\":\"9\",\"employee_name\":\"Colleen Hurst\",\"employee_salary\":\"205500\",\"employee_age\":\"39\",\"profile_image\":\"\"},\"9\":{\"id\":\"10\",\"employee_name\":\"Sonya Frost\",\"employee_salary\":\"103600\",\"employee_age\":\"23\",\"profile_image\":\"\"},\"10\":{\"id\":\"11\",\"employee_name\":\"Jena Gaines\",\"employee_salary\":\"90560\",\"employee_age\":\"30\",\"profile_image\":\"\"},\"11\":{\"id\":\"12\",\"employee_name\":\"Quinn Flynn\",\"employee_salary\":\"342000\",\"employee_age\":\"22\",\"profile_image\":\"\"},\"12\":{\"id\":\"13\",\"employee_name\":\"Charde Marshall\",\"employee_salary\":\"470600\",\"employee_age\":\"36\",\"profile_image\":\"\"},\"13\":{\"id\":\"14\",\"employee_name\":\"Haley Kennedy\",\"employee_salary\":\"313500\",\"employee_age\":\"43\",\"profile_image\":\"\"},\"14\":{\"id\":\"15\",\"employee_name\":\"Tatyana Fitzpatrick\",\"employee_salary\":\"385750\",\"employee_age\":\"19\",\"profile_image\":\"\"},\"15\":{\"id\":\"16\",\"employee_name\":\"Michael Silva\",\"employee_salary\":\"198500\",\"employee_age\":\"66\",\"profile_image\":\"\"},\"16\":{\"id\":\"17\",\"employee_name\":\"Paul Byrd\",\"employee_salary\":\"725000\",\"employee_age\":\"64\",\"profile_image\":\"\"},\"17\":{\"id\":\"18\",\"employee_name\":\"Gloria Little\",\"employee_salary\":\"237500\",\"employee_age\":\"59\",\"profile_image\":\"\"},\"18\":{\"id\":\"19\",\"employee_name\":\"Bradley Greer\",\"employee_salary\":\"132000\",\"employee_age\":\"41\",\"profile_image\":\"\"},\"19\":{\"id\":\"20\",\"employee_name\":\"Dai Rios\",\"employee_salary\":\"217500\",\"employee_age\":\"35\",\"profile_image\":\"\"},\"20\":{\"id\":\"21\",\"employee_name\":null,\"employee_salary\":null,\"employee_age\":null,\"profile_image\":\"\"},\"21\":{\"id\":\"22\",\"employee_name\":\"Yuri Berry\",\"employee_salary\":\"675000\",\"employee_age\":\"40\",\"profile_image\":\"\"},\"22\":{\"id\":\"23\",\"employee_name\":\"Caesar Vance\",\"employee_salary\":\"106450\",\"employee_age\":\"21\",\"profile_image\":\"\"},\"23\":{\"id\":\"24\",\"employee_name\":\"Doris Wilder\",\"employee_salary\":\"85600\",\"employee_age\":\"23\",\"profile_image\":\"\"},\"24\":{\"employee_name\":null,\"employee_salary\":null,\"employee_age\":null,\"id\":35}}}"
+				}
+			]
+		},
+		{
+			"name": "\thttp://dummy.restapiexample.com/api/v1/employee/1",
+			"request": {
+				"url": "\thttp://dummy.restapiexample.com/api/v1/employee/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://dummy.restapiexample.com/api/v1/create",
+			"request": {
+				"url": "http://dummy.restapiexample.com/api/v1/create",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "\thttp://dummy.restapiexample.com/api/v1/update/21",
+			"request": {
+				"url": "\thttp://dummy.restapiexample.com/api/v1/update/21",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "\thttp://dummy.restapiexample.com/api/v1/delete/2",
+			"request": {
+				"url": "\thttp://dummy.restapiexample.com/api/v1/delete/2",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
