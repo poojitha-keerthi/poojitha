@@ -1,0 +1,37 @@
+                                   \\192.168.1.4
+1.what is the difference between BVT and Defects Life Cycle
+2.What is the test process and test design
+3.what is the differencc between HTTP/SOAP/REST
+4.what Kind of tool is selenium in terms of Web based application
+5.what is the Load Runner suite and selenium suite
+6.Can selenium scripts be embedded in Load Runner - justify
+
+Requirement to automate a web based application for the currency validation
+
+1.The User has to validate the currency conversion keeping the base currency in INR as country Name India and display the currency for the various transactions in the opencart and validate the base curreny with populated in the open cart application
+
+2.The input has to be taken for the user for the base currency and checked against the tranaction curreny with valiation on the web based objects
+Count the number of links in the drop down box of the currency
+
+3.capture the validation message for the invalid curreny using the java script alert box or text message
+
+
+
+
+ANSWERS:
+3.SOAP is an xml based protocol whereas REST is an architectural style but not a protocol and HTML is an web based project used to design a web page
+
+4.selenium is an open source testing suite project  for web applications
+testing done using selenium tool is usually referred as selenium project
+
+5.LoadRunner  suite is an automated load testing tool that allows you to test your application before, during, and after deployment.
+    Selenium is not just a single tool but a suite of software, each with a different approach to support automation testing  and it is implemented by firefox extension which provides recording and playback functionalities on test scripts
+
+1. BVT is a set of tests run on each new build of a product to verify that the build is testable before the build is released
+Defects Life Cycle starts as soon as any new defect is found by a tester and comes to an end when a tester closes that defect assuring that it won't get reproduced again.
+
+2.Test process  is an process of evaluating whether the requirements are sufficient or not to complete the project
+  Test Design is a process of testing the tools by test cases thogh conditions
+
+6.The selenium scripts can be run within a project by recording the current actions 
+ we cannot take this through load runner.
